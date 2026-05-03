@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "discord-status",
+    "version": "${version}",
+    "name": "Discord Status Mod",
+    "description": "Updates a Discord channel name based on Minecraft server status.",
+    "authors": [
+        "YourName"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "",
+    "environment": "server",
+    "entrypoints": {
+        "server": [
+            "com.yourmod.DiscordStatusMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "fabric-api": "*",
+        "minecraft": "~1.21.1",
+        "java": ">=21"
+    }
+}
